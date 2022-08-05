@@ -1,0 +1,381 @@
+{
+  "mod_elements": [
+    {
+      "name": "AutoSmeltEnchantment",
+      "type": "enchantment",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auto_smelt_enchantment",
+      "path": "~/AutoSmelt"
+    },
+    {
+      "name": "AutoSmeltRule",
+      "type": "gamerule",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "autoSmeltRule",
+      "metadata": {
+        "type": "logic"
+      },
+      "path": "~/AutoSmelt"
+    },
+    {
+      "name": "AutoSmeltScript",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auto_smelt_script",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/AutoSmelt"
+    },
+    {
+      "name": "AutoSmeltRuleScript",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auto_smelt_rule_script",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/AutoSmelt"
+    },
+    {
+      "name": "MCPPHelp",
+      "type": "command",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcpp_help",
+      "path": "~/Help"
+    },
+    {
+      "name": "HelpScript",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "help_script",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "cmdparams",
+            "type": "map"
+          }
+        ]
+      },
+      "path": "~/Help"
+    },
+    {
+      "name": "IronHammer",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_hammer",
+      "path": "~/Hammers/Iron Hammer"
+    },
+    {
+      "name": "IronHammerDestroy",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_hammer_destroy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hammers/Iron Hammer"
+    },
+    {
+      "name": "HammerRevolution",
+      "type": "achievement",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer_revolution",
+      "path": "~/Hammers/Iron Hammer"
+    },
+    {
+      "name": "DiamondHammer",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_hammer",
+      "path": "~/Hammers/Diamond Hammer"
+    },
+    {
+      "name": "NetheriteHammer",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_hammer",
+      "path": "~/Hammers/Netherite Hammer"
+    },
+    {
+      "name": "DiamondHammerDestroy",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_hammer_destroy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hammers/Diamond Hammer"
+    },
+    {
+      "name": "NetheriteHammerDestroy",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_hammer_destroy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hammers/Netherite Hammer"
+    },
+    {
+      "name": "NetheriteHammerObtain",
+      "type": "achievement",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_hammer_obtain",
+      "path": "~/Hammers/Netherite Hammer"
+    },
+    {
+      "name": "NetheriteHammerFireball",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_hammer_fireball",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hammers/Netherite Hammer"
+    },
+    {
+      "name": "NetheriteHammerRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_hammer_recipe",
+      "path": "~/Hammers/Netherite Hammer"
+    },
+    {
+      "name": "DiamondHammerRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_hammer_recipe",
+      "path": "~/Hammers/Diamond Hammer"
+    },
+    {
+      "name": "IronHammerRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_hammer_recipe",
+      "path": "~/Hammers/Iron Hammer"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.hammer_revolution.descr": "Craft any hammer",
+      "enchantment.minecraft.auto_smelt_enchantment": "Auto Smelt Enchantment",
+      "item.minecraftplusplus.netherite_hammer": "Netherite Hammer",
+      "item.minecraftplusplus.diamond_hammer": "Diamond Hammer",
+      "enchantment.minecraftplusplus.auto_smelt_enchantment": "Smelting Touch",
+      "advancements.netherite_hammer_obtain.title": "Hammer Me with Debris",
+      "item.minecraftplusplus.iron_hammer": "Iron Hammer",
+      "gamerule.autoSmeltRule": "forcedAutoSmelt",
+      "advancements.netherite_hammer_obtain.descr": "Make a Netherite Hammer.",
+      "gamerule.autoSmeltRule.description": "Force auto-smelt to be applied to all tools.",
+      "advancements.hammer_revolution.title": "Hammer Revolution"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "AutoSmelt",
+        "children": []
+      },
+      {
+        "name": "Help",
+        "children": []
+      },
+      {
+        "name": "Hammers",
+        "children": [
+          {
+            "name": "Diamond Hammer",
+            "children": []
+          },
+          {
+            "name": "Iron Hammer",
+            "children": []
+          },
+          {
+            "name": "Netherite Hammer",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "minecraftplusplus",
+    "modName": "Minecraft++",
+    "version": "0.2.5",
+    "description": "A Minecraft Utility Mod that adds some quality-of-life features and items. Enjoy!",
+    "author": "Max Bai",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "title",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Max Bai, under the Academic Free License v3.0",
+    "modElementsPackage": "net.mcpp.minecraftplusplus",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

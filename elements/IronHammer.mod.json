@@ -1,0 +1,40 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "iron_hammer",
+    "customModelName": "Normal",
+    "name": "Iron Hammer",
+    "specialInfo": [
+      "A lot slower than a pickaxe or a sword",
+      "but can excavate a lot of materials and attack for 16 damage!"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "MultiTool",
+    "harvestLevel": 1,
+    "efficiency": 2.0,
+    "attackSpeed": 0.5,
+    "enchantability": 2,
+    "damageVsEntity": 16.0,
+    "usageCount": 500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:IronHammer"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "IronHammerDestroy"
+    }
+  }
+}

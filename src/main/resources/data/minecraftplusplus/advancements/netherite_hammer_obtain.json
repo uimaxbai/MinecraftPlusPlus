@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraftplusplus:netherite_hammer"
+    },
+    "title": {
+      "translate": "advancements.netherite_hammer_obtain.title"
+    },
+    "description": {
+      "translate": "advancements.netherite_hammer_obtain.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "netherite_hammer_obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraftplusplus:netherite_hammer"
+            ],
+            "count": {
+              "min": 1,
+              "max": 100000000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "minecraft:nether/obtain_ancient_debris"
+}

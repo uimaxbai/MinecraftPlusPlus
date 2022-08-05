@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="minecraftplusplus"
+version="0.2.5"
+displayName="Minecraft++"
+credits="Max Bai, under the Academic Free License v3.0"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+authors="Max Bai"
+description='''
+A Minecraft Utility Mod that adds some quality-of-life features and items. Enjoy!
+'''
+
+[[dependencies.minecraftplusplus]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

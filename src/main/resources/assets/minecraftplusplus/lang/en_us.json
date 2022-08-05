@@ -1,0 +1,13 @@
+{
+  "advancements.hammer_revolution.descr": "Craft any hammer",
+  "enchantment.minecraft.auto_smelt_enchantment": "Auto Smelt Enchantment",
+  "item.minecraftplusplus.netherite_hammer": "Netherite Hammer",
+  "item.minecraftplusplus.diamond_hammer": "Diamond Hammer",
+  "enchantment.minecraftplusplus.auto_smelt_enchantment": "Smelting Touch",
+  "advancements.netherite_hammer_obtain.title": "Hammer Me with Debris",
+  "item.minecraftplusplus.iron_hammer": "Iron Hammer",
+  "gamerule.autoSmeltRule": "forcedAutoSmelt",
+  "advancements.netherite_hammer_obtain.descr": "Make a Netherite Hammer.",
+  "gamerule.autoSmeltRule.description": "Force auto-smelt to be applied to all tools.",
+  "advancements.hammer_revolution.title": "Hammer Revolution"
+}

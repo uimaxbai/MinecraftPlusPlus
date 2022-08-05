@@ -1,0 +1,40 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "netherite_hammer",
+    "customModelName": "Normal",
+    "name": "Netherite Hammer",
+    "specialInfo": [
+      "Somehow can get basically every material from a single block",
+      "shoots fireballs when right-clicked and deals 20 damage!"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "MultiTool",
+    "harvestLevel": 1,
+    "efficiency": 3.0,
+    "attackSpeed": 0.3,
+    "enchantability": 2,
+    "damageVsEntity": 20.0,
+    "usageCount": 750,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "Items.NETHERITE_INGOT"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "NetheriteHammerFireball"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "NetheriteHammerDestroy"
+    }
+  }
+}

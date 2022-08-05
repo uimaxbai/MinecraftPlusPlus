@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraftplusplus:iron_hammer"
+    },
+    "title": {
+      "translate": "advancements.hammer_revolution.title"
+    },
+    "description": {
+      "translate": "advancements.hammer_revolution.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hammer_revolution": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraftplusplus:iron_hammer"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1000000000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "minecraft:story/smelt_iron"
+}
