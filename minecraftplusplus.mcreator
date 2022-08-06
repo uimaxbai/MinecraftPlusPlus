@@ -354,6 +354,14 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "TNT Arrow",
+        "children": []
+      },
+      {
+        "name": "Fiery Arrow",
+        "children": []
       }
     ]
   },
