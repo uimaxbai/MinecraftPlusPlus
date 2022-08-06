@@ -1,6 +1,6 @@
-<p align="center">
+<div align="center">
 <img src="https://user-images.githubusercontent.com/61615730/183240606-6069c76c-408d-4399-8ee9-c29bc8a94c1d.png">
-</p>
+</div>
 
 
 # MinecraftPlusPlus
