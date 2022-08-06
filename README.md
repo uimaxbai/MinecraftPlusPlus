@@ -1,3 +1,8 @@
+<p align="center">
+<img src="https://user-images.githubusercontent.com/61615730/183240606-6069c76c-408d-4399-8ee9-c29bc8a94c1d.png">
+</p>
+
+
 # MinecraftPlusPlus
 <i>A WIP Minecraft Mod that adds enchantments, items and more! (mainly for me to test mcreator out tho)</i>
 
