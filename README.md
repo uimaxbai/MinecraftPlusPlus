@@ -5,6 +5,8 @@
 - `Smelting Touch` enchantment - copied directly from Hypixel Skyblock and does what you think it does
 - **Hammers** - cool for mining and attacking
 
+**For all the features, go to ![the wiki](https://github.com/uimaxbai/MinecraftPlusPlus/wiki).**
+
 Planning to support this mod for a long time!
 
 Support:
