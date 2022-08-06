@@ -7,4 +7,8 @@
 
 Planning to support this mod for a long time!
 
+Support:
+Currently only 1.18.2 is supported in singleplayer, but I am wanting to port it to 1.19.2 too.
+Versions earlier will not be supported due to the use of netherite.
+
 ## That's all for now!
